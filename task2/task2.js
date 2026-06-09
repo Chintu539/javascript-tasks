@@ -9,6 +9,7 @@ console.log("hra:"+ hra);
 console.log("bonus:"+bonus);
 console.log("tax:"+tax);
 console.log("finalsalary:"+finalsalary);*/
+-----------------------------------------------------
 
 /*let input=prompt("enter your marks:");
 let marks=Number(input);
@@ -24,7 +25,7 @@ if (marks>=90){
 }else{
     console.log("fail");
 }*/
-
+----------------------------------------
 /*let correctUsername = "admin";
 let correctPassword = "12345";
 
@@ -42,7 +43,7 @@ if (enteredUsername === correctUsername) {
 } else {
     console.log("Invalid Username");
 }*/
-
+================================================================
 /*let balance = 5000;
 let userInput = prompt("Enter amount to withdraw:");
 
@@ -58,7 +59,7 @@ if (amount <= balance) {
 }
 console.log("Remaining Balance:");
 console.log(balance);*/
-
+==============================================
 /*const purchase = 12000; 
 let discountPercent = 0;
 
@@ -74,13 +75,12 @@ else if (purchase >= 2000) {
 else {
     discountPercent = 0;
 }
-
 const discountAmount = (purchase * discountPercent) / 100;
 const finalAmount = purchase - discountAmount;
 console.log("Original Amount: " + purchase);
 console.log("Discount: " + discountAmount);
 console.log("Final Amount: " + finalAmount);*/
-
+======================================================
 /*let hasHelmet = false; 
 let hasLicense = false; 
 let fine = 0;
@@ -95,7 +95,7 @@ if (!hasHelmet && !hasLicense) {
     fine = 0;
 }
 console.log(`Traffic Fine Amount: ₹${fine}`);*/
-
+=================================================================
 
 /*const attendance = ["P", "P", "A", "P", "A", "A", "P"];
 
@@ -112,7 +112,7 @@ for (let i = 0; i < attendance.length; i++) {
 
 console.log("Present Days : " + presentDays);
 console.log("Absent Days  : " + absentDays);*/
-
+======================================================
 /*const product = {
     productName: "Laptop",
     price: 50000,
@@ -121,7 +121,7 @@ console.log("Absent Days  : " + absentDays);*/
 for (let key in product) {
     console.log(`${key} : ${product[key]}`);
 }*/
-
+======================================================
 /*let distance = 12; 
 let totalFare = 0;
 
@@ -134,7 +134,7 @@ if (distance <= 5) {
 }
 console.log(`Distance = ${distance} KM`);
 console.log(`Total Fare : ₹${totalFare}`);*/
-
+=========================================================
 
 const employees = [
   { id: 1, name: "Rahul", salary: 25000 },
