@@ -23,7 +23,7 @@ if (salary < 20000) {
 
 console.log("Old Salary: " + salary);
 console.log("New Salary: " + newSalary);*/
-
+-----------------------------------------------
 /*const units = prompt("Enter units:");
 
 let bill;
@@ -34,8 +34,8 @@ if (units <= 100) {
 } else {
     bill = units * 10;
 }
-console.log("Total Bill: ₹" + bill);*/
-
+console.log("Total Bill: $" + bill);*/
+---------------------------------------------
 /*const balance = 10000;
 
 const amount = prompt("Enter withdrawal amount:");
@@ -43,11 +43,11 @@ const amount = prompt("Enter withdrawal amount:");
 if (amount <= balance) {
     const remaining = balance - amount;
     console.log("Withdrawal Successful");
-    console.log("Remaining Balance: ₹" + remaining);
+    console.log("Remaining Balance: $" + remaining);
 } else {
     console.log("Insufficient Funds");
 }*/
-
+--------------------------------------------
 /*const username = prompt("Enter username:");
 const password = prompt("Enter password:");
 
@@ -56,7 +56,7 @@ if (username == "admin" && password == "12345") {
 } else {
     console.log("Invalid Credentials");
 }*/
-
+------------------------------------------------------
 /*const amount = Number(prompt("Enter recharge amount:"));
 
 if (amount >= 499) {
@@ -68,7 +68,7 @@ else if (amount >= 299) {
 else {
     console.log("No Offer");
 }*/
-
+------------------------------------------------------
 /*let color = prompt("Enter color:").toLowerCase();
 
 switch (color) {
@@ -84,7 +84,7 @@ switch (color) {
     default:
         console.log("Invalid color");
 }*/
-
+---------------------------------------------------------
 /*const totalDays = Number(prompt("Enter total working days:"));
 const presentDays = Number(prompt("Enter present days:"));
 
@@ -97,7 +97,7 @@ if (percentage >= 75) {
 } else {
     console.log("Not Eligible");
 }*/
-
+-----------------------------------------------------------
 
 /*const price = 500;
 
@@ -113,7 +113,7 @@ console.log("Total Amount: ₹" + total);
 console.log("GST (5%): ₹" + gst);
 console.log("Final Amount: ₹" + finalAmount);*/
 
-
+-----------------------------------------------------------
 /*const foodCost = Number(prompt("Enter food cost:"));
 
 let finalBill;
@@ -126,9 +126,8 @@ if (foodCost > 2000) {
     finalBill = foodCost;
     console.log("No Discount");
 }
-
 console.log("Final Bill: $" + finalBill);*/
-
+------------------------------------------------------
 /*const age = Number(prompt("Enter age:"));
 const height = Number(prompt("Enter height:"));
 const weight = Number(prompt("Enter weight:"));
@@ -146,7 +145,7 @@ if (age >= 18) {
 } else {
     console.log("Rejected: Age is less than 18");
 }*/
-
+---------------------------------------------------
 /*const m1 = Number(prompt("Enter marks 1:"));
 const m2 = Number(prompt("Enter marks 2:"));
 const m3 = Number(prompt("Enter marks 3:"));
@@ -174,7 +173,7 @@ else if (percentage >= 60) {
 else {
     console.log("Grade: Fail");
 }*/
-
+--------------------------------------------------------
 /*const time = Number(prompt("Enter time (0-24):"));
 
 if (time >= 6 && time < 14) {
@@ -186,7 +185,7 @@ else if (time >= 14 && time < 22) {
 else {
     console.log("Night Shift");
 }*/
-
+--------------------------------------------------------
 /*const age = Number(prompt("Enter age:"));
 const salary = Number(prompt("Enter salary:"));
 const experience = Number(prompt("Enter experience (years):"));
@@ -196,9 +195,8 @@ if (age >= 21 && salary >= 25000 && experience >= 2) {
 } else {
     console.log("Not Eligible");
 }*/
-
+----------------------------------------------------------
 /*const distance = Number(prompt("Enter distance in KM:"));
-
 let fare;
 
 if (distance <= 5) {
@@ -208,15 +206,14 @@ if (distance <= 5) {
     const remaining = (distance - 5) * 15;
     fare = first + remaining;
 }
-
 console.log("Total Fare: $" + fare);*/
-
+----------------------------------------------------------
 /*const num = Number(prompt("Enter a number:"));
 
 for (let i = 1; i <= 10; i++) {
     console.log(num + " x " + i + " = " + (num * i));
 }*/
-
+-------------------------------------------------------
 /*const length = Number(prompt("Enter password length:"));
 
 if (length < 6) {
@@ -228,7 +225,7 @@ else if (length <= 10) {
 else {
     console.log("Strong");
 }*/
-
+----------------------------------------------------------
 /*const experience = Number(prompt("Enter experience (years):"));
 const salary = Number(prompt("Enter salary:"));
 
@@ -243,9 +240,8 @@ else if (experience <= 5) {
 else {
     bonus = salary * 0.20;
 }
-
 console.log("Bonus: $" + bonus);*/
-
+-----------------------------------------------------
 /*let count = 10;
 
 while (count >= 1) {
@@ -253,7 +249,7 @@ while (count >= 1) {
     count--; 
 }
 console.log("Happy New Year");*/
-
+------------------------------------------------------
 /*let degree = "Completed"; 
 let communication = "Good";
 let score = 75;
