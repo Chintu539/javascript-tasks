@@ -52,9 +52,8 @@ function printStudents() {
     );
   }
 }
-
 printStudents();*/
-
+--------------------------------------------------------------
 /*const employees = [
   { id: 1, name: "Ravi", salary: 25000, department: "IT" },
   { id: 2, name: "Sita", salary: 40000, department: "HR" },
@@ -119,7 +118,7 @@ function showDetails() {
   }
 }
 generateReport(showDetails);*/
-
+------------------------------------------------------------------------------------
 /*const foods = [
   { id: 1, foodName: "Biryani", price: 250, category: "Main" },
   { id: 2, foodName: "Pizza", price: 300, category: "Main" },
@@ -180,8 +179,7 @@ function showOrder() {
   }
 }
 placeOrder(showOrder);*/
-
-
+----------------------------------------------------------------------------------------------
 /*const movies = [
   { movieName: "RRR", ticketPrice: 200, availableSeats: 50, language: "Telugu" },
   { movieName: "Jawan", ticketPrice: 250, availableSeats: 0, language: "Hindi" },
@@ -238,7 +236,6 @@ for (let i = 0; i < movies.length; i++) {
   }
 }
 
-
 function booking(callback) {
   console.log("Booking Confirmed");
   callback();
@@ -248,7 +245,7 @@ function message() {
   console.log("Enjoy your movie!");
 }
 booking(message);*/
-
+---------------------------------------------------------------------------
 
 /*const patients = [
   { patientId: 1, patientName: "Ravi", age: 65, disease: "Heart" },
@@ -323,7 +320,7 @@ function message() {
   console.log("Visit Hospital on Time");
 }
 appointment(message);*/
-
+------------------------------------------------------------------------------------------
 
 /*const books = [
   { bookId: 1, bookName: "Java Basics", author: "Ravi", price: 600, category: "Programming" },
@@ -387,9 +384,8 @@ for (let i = 0; i < books.length; i++) {
 function issueBook() {
   console.log("Book Issued Successfully");
 }
-
 issueBook();*/
-
+---------------------------------------------------------------------------------
 /*const products = [
   { productId: 1, productName: "Mobile", price: 15000, stock: 5 },
   { productId: 2, productName: "Laptop", price: 50000, stock: 15 },
@@ -453,7 +449,7 @@ function showProducts() {
 }
 generateReport(showProducts);*/
 
-
+----------------------------------------------------------------------------------
 /*const applicants = [
   { name: "Ravi", age: 19, percentage: 75, department: "CSE" },
   { name: "Sita", age: 17, percentage: 80, department: "ECE" },
@@ -517,8 +513,6 @@ for (let i = 0; i < applicants.length; i++) {
   }
 }
 
-
-
 function admissionResult(callback) {
   console.log("Admission Results:");
   callback();
@@ -535,7 +529,7 @@ function showApplicants() {
   }
 }
 admissionResult(showApplicants);*/
-
+--------------------------------------------------------------------------------------
 /*const passengers = [
   { passengerId: 1, name: "Ravi", seatNumber: 12, ticketPrice: 500, busType: "AC" },
   { passengerId: 2, name: "Sita", seatNumber: 0, ticketPrice: 400, busType: "Non-AC" },
@@ -596,8 +590,6 @@ for (let i = 0; i < passengers.length; i++) {
   }
 }
 
-
-
 function ticketConfirm(callback) {
   console.log("Ticket Confirmed");
   callback();
@@ -616,7 +608,7 @@ function showPassengers() {
 
 // call function
 ticketConfirm(showPassengers);*/
-
+------------------------------------------------------------------------------
 /*const mobiles = [
   { brand: "Samsung", model: "S21", price: 30000, stock: 5 },
   { brand: "Apple", model: "iPhone 13", price: 70000, stock: 3 },
@@ -683,15 +675,12 @@ for (let i = 0; i < mobiles.length; i++) {
   }
 }
 
-
-
 function salesReport() {
   let data = "";
 
   for (let i = 0; i < mobiles.length; i++) {
     data = data + mobiles[i].brand + " " + mobiles[i].model + " ";
   }
-
   return data;
 }
 
@@ -701,5 +690,4 @@ function generateReport(callback) {
   let result = callback();
   console.log("Mobiles:", result); 
 }
-
 generateReport(salesReport);*/
