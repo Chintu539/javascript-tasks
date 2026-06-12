@@ -57,4 +57,4 @@ console.log("Email:", email);*/
 
 /*let userName = prompt("Enter your Name:");
 let userCourse = prompt("Enter your Course:");
-alert("Hello " + userName + ", Welcome to " + userCourse + " Course");*/
+alert("Hello " + userName + ", Welcome to " + userCourse + " Course");*//
