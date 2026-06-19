@@ -15,27 +15,23 @@ fetch(url)
 
 
 function displayProducts(products){
-
     const container = document.getElementById("products");
     container.innerHTML = "";
 
     products.forEach(p => {
-
         let div = document.createElement("div");
 
-        div.innerHTML = `
-            <img src="${p.image}" width="100">
+        div.innerHTML = 
+           `<img src="${p.image}" width="100">
             <h4>${p.title}</h4>
             <p>₹${p.price}</p>
             <p>${p.category}</p>
-            <button onclick="addToCart(${p.id})">Add</button>
-        `;
+            <button onclick="addToCart(${p.id})">Add</button>`;
         container.appendChild(div);
     });
 }
 
 document.getElementById("search").addEventListener("keyup", function(){
-
     let text = this.value.toLowerCase();
     let filtered = allProducts.filter(p =>
         p.title.toLowerCase().includes(text)
@@ -67,5 +63,5 @@ function addToCart(id){
 function showStats(){
     let total = allProducts.reduce((sum, p) => sum + p.price, 0);
     document.getElementById("total").innerText =
-        "Total Value: ₹" + total.toFixed(2);
+        "Total Value: $" + total.toFixed(2);
 }
